@@ -1,0 +1,35 @@
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore IDE-specific files
+*.idea/
+.vscode/
+
+# Ignore testing and logging files
+coverage/
+logs/
+
+# Ignore generated documentation
+docs/
+
+# Ignore venv and other virtual environment files
+venv/
+env/
+
+# Ignore database-related files (if applicable)
+migrations/
+alembic.ini
+
+# Ignore temporary files and directories
+*.pyc
+*.swp
+*~
+*.tmp
+*.bak
+
+# Ignore specific files
+requirements.txt
+.env
+startup.sh
+commands.json
